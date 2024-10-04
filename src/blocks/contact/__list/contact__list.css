@@ -1,0 +1,6 @@
+.contact__list{
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline: 25px;
+    gap: 20px;
+}

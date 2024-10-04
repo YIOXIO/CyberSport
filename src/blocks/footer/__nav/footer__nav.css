@@ -1,0 +1,21 @@
+.footer__nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+@media (width >= 525px){
+    .footer__nav{
+        flex-direction: row;
+    }
+}
+@media (width >= 925px){
+    .footer__nav{
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+}

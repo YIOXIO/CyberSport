@@ -1,0 +1,14 @@
+.section-title{
+    color: var(--primary-text-color);
+    font-family: var(--accent-font);
+    font-size: var(--section-font-size);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135%; /* 59.4px */
+    letter-spacing: 3.76px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: clamp(0rem,-.955rem + 4.773vw,2.025rem);
+    margin-block-end: 38px;
+}

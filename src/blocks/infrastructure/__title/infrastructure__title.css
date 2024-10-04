@@ -1,0 +1,5 @@
+.infrastructure__title{
+    color: #FFF;
+    font-family: var(--accent-font);
+    font-size: clamp(1rem, 0.864rem + 0.682vw, 1.375rem);
+}

@@ -1,0 +1,15 @@
+@import './__title-wrapper/infrastructure__title-wrapper.css';
+@import './__title/infrastructure__title.css';
+@import './__elements/infrastructure__elements.css';
+@import './__elements-wrapper/infrastructure__elements-wrapper.css';
+@import './__list/infrastructure__list.css';
+@import './__card/infrastructure__card.css';
+@import './__card-img/infrastructure__card-img.css';
+@import './__card-title/infrastructure__card-title.css';
+@import './__card-title/_margin/infrastructure__card-title_margin.css';
+@import './__card-descr/infrastructure__card-descr.css';
+
+.infrastructure{
+    position: relative;
+    margin-block-end: 101px;
+}

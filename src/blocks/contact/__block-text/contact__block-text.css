@@ -1,0 +1,8 @@
+.contact__block-text{
+    color: var(--secondary-color-text);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 140%; /* 22.4px */
+    max-inline-size: 240px;
+}

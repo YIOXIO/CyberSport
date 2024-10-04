@@ -1,0 +1,9 @@
+.marquee__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 90px;
+    position: relative;
+
+}

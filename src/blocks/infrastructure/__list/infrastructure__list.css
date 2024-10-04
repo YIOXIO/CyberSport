@@ -1,0 +1,5 @@
+.infrastructure__list{
+    display: flex;
+    position: relative;
+    margin-block-end: 41px;
+}

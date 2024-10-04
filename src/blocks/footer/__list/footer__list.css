@@ -1,0 +1,14 @@
+.footer__list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+        
+@media (width >= 525px){
+    .footer__list{
+        flex-direction: row;
+    }
+}

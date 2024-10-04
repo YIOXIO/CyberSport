@@ -1,0 +1,11 @@
+.infrastructure__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-block: 9px 30px;
+    padding-inline:9px;
+    background-color: var(--bg-color);
+    min-block-size: 409px;
+    block-size: 100%;
+}

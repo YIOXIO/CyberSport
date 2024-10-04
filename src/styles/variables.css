@@ -1,0 +1,19 @@
+/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font: "Inter-Variable", arial, sans-serif;
+    --accent-font: "Font Over", arial, sans-serif;
+    --main-weight: "wght" 400;
+    --accent-weight: "wght" 500;
+    --bg-color: #D2D2D2;
+    --bg-border-color: #8E8E8E;
+    --main-color: #0B0A32;
+    --accent-color: #000;
+    --primary-text-color: #E5D9FD;
+    --secondary-text-color: #171717;
+    --heart-color: #000;
+    --footer-link-color: #fff;
+    --heart-fill-color: #ff0000;
+    --decoration-color:#430B54;
+    --decoration-color-light:#540B44;
+    --section-font-size: clamp(1.75rem, 1.432rem + 1.591vw, 2.625rem);
+  }

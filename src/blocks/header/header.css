@@ -1,0 +1,18 @@
+@import './__link/header__link.css';
+@import './__nav/header__nav.css';
+@import './__list/_menu/header__list_menu.css';
+@import './__list/header__list.css';
+@import './__logo/header__logo.css';
+@import './__list/_logos/header__list_logos.css';
+.header{
+    max-inline-size: 1193px;
+    margin-inline: auto;
+    border: 3px solid var(--bg-border-color);
+    border-block-start: none;
+    background-color: var(--bg-color);
+    padding-block: 12px;
+    padding-inline: 19px;
+    margin-block-end: 80px;
+}
+
+

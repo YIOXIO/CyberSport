@@ -1,0 +1,9 @@
+.contact__block-title{
+    color: var(--secondary-text-color);
+    font-family: var(--main-font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: var(--accent-weight);
+    line-height: 110%; /* 26.4px */
+    margin-block-end: 15px;
+}

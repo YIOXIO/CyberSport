@@ -1,0 +1,7 @@
+.infrastructure__card-img{
+    max-inline-size: 372px;
+    max-block-size: 183px;
+    inline-size: 100%;
+    object-fit: cover;
+    margin-block-end: 29px;
+}

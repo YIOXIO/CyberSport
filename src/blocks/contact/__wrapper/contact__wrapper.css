@@ -1,0 +1,15 @@
+.contact__wrapper{
+    padding-block:  53px 62px;
+    padding-inline: clamp(0.625rem, -0.67rem + 6.477vw, 4.188rem);
+    border: 1px solid #171717;
+    background-color: var(--bg-color);
+}
+
+.contact__wrapper::before{
+    content: url('../../../svg/decoration-elements/window.svg');
+    left: 81.8%;
+    position: absolute;
+    top: 8%;
+    transform: translateX(clamp(-10.8rem, -11.527rem + 3.936vw, -6.8rem));
+    z-index: -1;
+}

@@ -1,0 +1,20 @@
+.infrastructure__title-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(90deg, #421AD5 0%, #EDBCD7 100%);
+    padding-block: 16px;
+    padding-inline: 24px 16px;
+    border: clamp(0.25rem, 0.045rem + 1.023vw, 0.813rem) solid var(--bg-color);
+    position: relative;
+    margin-block-end: 22px;
+}
+
+.infrastructure__title-wrapper::before{
+    content: url('../../../svg/decoration-elements/folder.svg');
+    position: absolute;
+    bottom: 50%;
+    left: 48.3%;
+    transform: translateX(-50%);
+    z-index: -1;
+}

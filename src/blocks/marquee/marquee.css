@@ -1,0 +1,16 @@
+@import './__list/marquee__list.css';
+@import './__img/marquee__img.css';
+
+.marquee{
+    inline-size: 100%;
+    overflow: hidden;
+    padding: 10px 0;
+    mask-image: linear-gradient(
+        to right,
+        hsl(0 0% 0% / 0),
+        hsl(0 0% 0% / 1) 20%,
+        hsl(0 0% 0% / 1) 80%,
+        hsl(0 0% 0% / 0)
+      );
+}
+

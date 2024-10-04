@@ -1,0 +1,20 @@
+.achievement__card-title{
+    color: var(--primary-text-color);
+    text-align: center;
+    font-family: var(--accent-font);
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    max-inline-size: 228px;
+}
+
+.achievement__card-title::after{
+    content: '';
+    display: block;
+    opacity: 0.35;
+    background-color: var(--primary-text-color);
+    inline-size: 135px;
+    margin-inline: auto;
+    block-size: 1px;
+    margin-block: 20px;
+}

@@ -1,0 +1,23 @@
+
+@media (width <= 920px){
+    .header__list_menu{
+        display: none;
+        
+    }
+    .header__list_menu_is-active{
+        display: flex;
+        background-color: var(--bg-color);
+        flex-wrap: wrap;
+        position: absolute;
+        z-index: 998;
+        top: 0;
+        left: 0;
+        right: 0;
+        block-size: 25vh;
+        align-content: center;
+        gap: 25px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}

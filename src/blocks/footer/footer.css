@@ -1,0 +1,11 @@
+@import './__link/footer__link.css';
+@import './__list/footer__list.css';
+@import './__list/_logos/footer__list_logos.css';
+@import './__logo/footer__logo.css';
+@import './__nav/footer__nav.css';
+
+.footer{
+    max-inline-size: 1140px;
+    margin-inline: auto;
+    margin-block-end: 40px; 
+}

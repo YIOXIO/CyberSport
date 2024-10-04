@@ -1,0 +1,110 @@
+/* Шрифты, переменные, глобальные стили*/
+@import './vendor/normalize.css';
+@import './styles/globals.css';
+@import './styles/variables.css';
+@import './vendor/fonts/fonts.css';
+
+/*Стили для анимация, контейнер, заговок для секций, бегущая строка, декоративные элементы, коллажа. */
+@import './blocks/decoration-elemetns/decoration-elements.css';
+@import './blocks/container/container.css';
+@import './animation/animation.css';
+@import './blocks/collage/collage.css';
+@import './blocks/marquee/marquee.css';
+@import './blocks/section-title/section-title.css';
+
+/* Стили для мобильного меню */
+@import './blocks/burger/burger.css';
+
+/* Стили для шапки Header (Шапка) */
+@import './blocks/header/header.css';
+
+
+/* Стили для Hero (Главная секция)*/
+@import './blocks/hero/hero.css';
+
+/* Стили для секции Infrastructure (Секция инфраструктура) */
+@import './blocks/infrastructure/infrastructure.css';
+
+/* Стили для секции Achievement (Секция достижения) */
+@import './blocks/achievement/achievement.css';
+
+/* Стили для секции Contact (Секция контакты) */
+@import './blocks/contact/contact.css';
+
+
+@import './blocks/footer/footer.css';
+
+
+.page {
+    min-inline-size: 320px;
+    min-block-size: 100dvb;
+    font-family: var(--main-font);
+    font-variation-settings: var(--main-weight);
+    background-color: var(--main-color);
+    background-image: url('./svg/decoration-elements/angle.svg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    line-height: normal;
+  
+  }
+
+
+  /* Отключает горизантальную прокрутку
+   на мобильных устройствах */
+.shell{
+  overflow-x: hidden;
+  position: relative;
+}
+
+
+
+
+/* Изменение цвета и символов кнопок навигации */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #000000; /* Ваш цвет */
+  font-size: 24px; /* Размер символов */
+  font-family: var(--accent-font);
+  background-color: var(--bg-color);
+  block-size: 42px;
+  inline-size: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: inherit;
+}
+
+/* Символы для кнопок навигации */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: ''; /* Убираем стандартные символы */
+}
+
+.swiper-button-prev::before {
+  content: ''; /* Ваш символ для предыдущей кнопки */
+  content: url('./svg/decoration-elements/slider-arrow.svg');
+  block-size: 40px;
+  rotate: 180deg;
+}
+
+.swiper-button-next::before {
+  content: url('./svg/decoration-elements/slider-arrow.svg');
+  block-size: 40px;
+
+}
+
+.swiper-button-wrapper{
+  display: flex;
+  gap: 13px;
+  justify-content: flex-end;
+}
+
+.swiper-pagination-fraction {
+  color: #FFF; 
+  font-size: 30px; 
+  font-family: var(--accent-font);
+  text-align: left;
+  inline-size: fit-content;
+  letter-spacing: -4.3px;
+}

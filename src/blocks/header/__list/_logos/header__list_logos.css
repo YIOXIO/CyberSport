@@ -1,0 +1,10 @@
+.header__list_logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.header__list_logos > li:nth-child(2){
+    margin-inline-end: clamp(0rem, -1.563rem + 7.813vw, 2.188rem);
+}

@@ -1,0 +1,6 @@
+.hero__text{
+    color: var(--primary-text-color);
+    font-size: 18px;
+    max-inline-size: 565px;
+    margin-block-end: 50px;
+}

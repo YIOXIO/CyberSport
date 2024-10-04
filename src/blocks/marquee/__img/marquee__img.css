@@ -1,0 +1,9 @@
+.marquee__img{
+    max-inline-size: 170px;
+    object-fit: contain;
+}
+
+.marquee__img_esports, 
+.marquee__img_siheiva{
+    max-inline-size: 90px;
+}

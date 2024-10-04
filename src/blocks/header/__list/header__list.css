@@ -1,0 +1,8 @@
+@media (width >= 920px){
+    .header__list{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+            
+}

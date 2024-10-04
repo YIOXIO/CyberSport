@@ -1,0 +1,5 @@
+.hero__arrow{
+    max-inline-size: 43px;
+    animation: opacityPulse 5s infinite ease-in-out;
+
+}

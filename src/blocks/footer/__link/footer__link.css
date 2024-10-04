@@ -1,0 +1,20 @@
+.footer__link{
+    font-family: var(--accent-font);
+    color: #FFF;
+    text-decoration: underline;
+    font-size: 15px;
+    padding-block: 10px;
+    padding-inline: 13px;
+    text-decoration: underline;
+    vertical-align: super;
+}
+
+
+.footer__link:focus{
+    outline: none;
+}
+
+.footer__link:focus-within,
+.footer__link:focus-visible {
+    border: 1px solid #FFF;
+}

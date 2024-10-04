@@ -1,0 +1,12 @@
+@import './__text/hero__text.css';
+@import './__text/_question/hero__text_question.css';
+@import './__title/hero__title.css';
+@import './__title/_empty/hero__title_empty.css';
+@import './__link/hero__link.css';
+@import './__social/hero__social.css';
+@import './__arrow/hero__arrow.css';
+
+.hero{
+    margin-block-end: 58px;
+    overflow-x: hidden;
+}

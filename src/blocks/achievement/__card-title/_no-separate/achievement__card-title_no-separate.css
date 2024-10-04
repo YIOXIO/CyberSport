@@ -1,0 +1,12 @@
+.achievement__card-title_no-separate{
+    margin-block-end: 18px;
+}
+.achievement__card-title_no-separate::after{
+display: none;
+}
+
+
+.achievement__list:nth-last-child(1)>li:nth-child(5)>.achievement__card>.achievement__card-title_no-separate {
+    margin-block-start: -11px;
+    margin-block-end: 9px;
+}

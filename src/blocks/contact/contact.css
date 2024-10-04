@@ -1,0 +1,12 @@
+@import './__wrapper/contact__wrapper.css';
+@import './__iframe/contact__iframe.css';
+@import './__title/contact__title.css';
+@import './__list/contact__list.css';
+@import './__block/contact__block.css';
+@import './__block-title/contact__block-title.css';
+@import './__block-text/contact__block-text.css';
+@import './__img/contact__img.css';
+
+.contact{
+    margin-block-end: 50px;
+}

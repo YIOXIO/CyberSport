@@ -1,0 +1,24 @@
+.achievement__list{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-block-end: 15px;
+}
+.achievement__list > li {
+    flex: 1 0 23%;
+}
+
+
+.achievement__list:nth-last-child(1)>li{
+    flex:1 0 16%;
+}
+
+@media (width >= 1024px){
+    .achievement__list:nth-last-child(1)>li:nth-child(6),
+    .achievement__list:nth-last-child(1)>li:nth-child(7){
+        flex: 0 0 19%;
+    }
+    
+}
+

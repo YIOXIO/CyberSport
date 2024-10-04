@@ -1,0 +1,8 @@
+.infrastructure__card-title{
+    color: var(--secondary-text-color);
+    font-family: var(--accent-font);
+    font-size: 20px;
+    margin-block-end: 25px;
+    text-align: center;
+}
+

@@ -1,0 +1,106 @@
+.decoration-elements{
+    border-radius: 800px;
+    background-color: var(--decoration-color);
+    filter: blur(277.5px);
+    block-size: 800px;
+    inline-size: 800px;
+    position: absolute;
+    z-index: -1;
+    top: -8%;
+    left: -8%;
+    animation: smoothPulse 5s infinite ease-in-out;
+}
+
+.decoration-elements-cloud{
+    background-image: url('../../svg/decoration-elements/cloud.svg');
+    inline-size: 120px;
+    background-repeat: no-repeat;
+    block-size: 70px;
+    background-size: contain;
+    position: absolute;
+    z-index: -1;
+    animation: cloud 5s infinite ease-in-out;
+    right: clamp(-8rem, -10.818rem + 9.091vw, 0rem);
+}
+
+
+.decoration-elements-sand-clock{
+    background-image: url('../../svg/decoration-elements/sand-clock.svg');
+    inline-size: 120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: -1;
+    animation: sandClock 5s infinite ease-in-out;
+    inline-size: 90px;
+    block-size: 90px;
+    top: 30%;
+    left: clamp(-5rem, -7.818rem + 9.091vw, -0.4rem);
+}
+.decoration-elements-sand-clock_small{
+    background-image: url('../../svg/decoration-elements/sand-clock_small.svg');
+    block-size: 50px;
+    inline-size: 50px;
+    left: revert-layer;
+    right: clamp(-6rem,-8.818rem + 9.091vw,-1.3rem);
+    z-index: -1;
+    top: 55%;
+}
+
+.decoration-elements_right{
+    border-radius: 800px;
+    background-color: var(--decoration-color);
+    filter: blur(277.5px);
+    block-size: 800px;
+    inline-size: 800px;
+    position: absolute;
+    z-index: -1;
+    right: 5%;
+    top: -5%;
+    z-index: -1;
+    left: revert-layer;
+    animation: smoothPulse 5s infinite ease-in-out;
+}
+
+.decoration-elements-U{
+    content: url('../../svg/decoration-elements/U-element.svg');
+    position: absolute;
+    z-index: -1;
+    left: 13.6%;
+    bottom: 48%;
+    animation: cloud 5s infinite ease-in-out;
+}
+
+.decoration-elements-tape{
+    content: url('../../img/decoration-elements/tape.png');
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transform: translate(44%, -36%);
+    animation: tape 15s infinite ease-in-out;
+    
+}
+
+.decoration-elements_ligther{
+    border-radius: 800px;
+    background-color: var(--decoration-color-light);
+    filter: blur(277.5px);
+    block-size: 800px;
+    inline-size: 800px;
+    position: absolute;
+    z-index: -1;
+    right: 35%;
+    top: 35%;
+    z-index: -1;
+    left: revert-layer;
+    animation: smoothPulse 5s infinite ease-in-out;
+}
+
+.decoration-elements_ligther-bottom{
+    right: 5%;
+    bottom: -65%;
+    z-index: -1;
+    top: revert-layer;
+    left: revert-layer;
+}

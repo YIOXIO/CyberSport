@@ -1,0 +1,13 @@
+@import './__list/achievement__list.css';
+@import './__card/achievement__card.css';
+@import './__card/_small/achievement__card_small.css';
+@import './__card-img/achievement__card-img.css';
+@import './__card-img/_minobr/achievement__card-img_minobr.css';
+@import './__card-img/_mvp/achievement__card-img_mvp.css';
+@import './__card-title/achievement__card-title.css';
+@import './__card-title/_no-separate/achievement__card-title_no-separate.css';
+@import './__card-description/achievement__card-description.css';
+
+.achievement{
+margin-block-end: 70px;
+}

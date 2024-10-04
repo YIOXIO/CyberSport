@@ -1,0 +1,23 @@
+
+
+.achievement__card-img{
+    max-inline-size: 128px;
+    inline-size: 100%;
+    object-fit: contain;
+}
+
+
+.achievement__list > li:nth-child(1) > .achievement__card > .achievement__card-img{
+    margin-block-end: 7px;
+}
+.achievement__list > li:nth-child(2) > .achievement__card > .achievement__card-img{
+    margin-block-end: 38px;
+}
+.achievement__list > li:nth-child(3) > .achievement__card > .achievement__card-img{
+    margin-block: 16px 30.88px;
+
+}
+.achievement__list > li:nth-child(4) > .achievement__card > .achievement__card-img{
+    margin-block-end: -6px;
+}
+

@@ -1,0 +1,14 @@
+.container{
+    max-inline-size: 1200px;
+    padding-inline: 2.5vw;
+    margin-inline: auto;
+    position: relative;
+}
+
+
+@media (width >= 1260px){
+    .container{
+        padding-inline: 0;
+    }
+}
+
