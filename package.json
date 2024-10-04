@@ -2,7 +2,7 @@
   "name": "cybersport-project",
   "version": "1.0.0",
   "repository": {
-    "url": ""
+    "url": "git+https://github.com/yioxio/CyberSport.git"
   },
   "description": "",
   "main": "index.js",
