@@ -55,3 +55,54 @@
 .section-title > span {
     margin-block-end: 0;
 }
+
+
+
+/* Изменение цвета и символов кнопок навигации */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #000000; /* Ваш цвет */
+  font-size: 24px; /* Размер символов */
+  font-family: var(--accent-font);
+  background-color: var(--bg-color);
+  block-size: 42px;
+  inline-size: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: inherit;
+}
+
+/* Символы для кнопок навигации */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: ''; /* Убираем стандартные символы */
+}
+
+.swiper-button-prev::before {
+  content: ''; /* Ваш символ для предыдущей кнопки */
+  content: url('../svg/decoration-elements/slider-arrow.svg');
+  block-size: 40px;
+  rotate: 180deg;
+}
+
+.swiper-button-next::before {
+  content: url('../svg/decoration-elements/slider-arrow.svg');
+  block-size: 40px;
+
+}
+
+.swiper-button-wrapper{
+  display: flex;
+  gap: 13px;
+  justify-content: flex-end;
+}
+
+.swiper-pagination-fraction {
+  color: #FFF; 
+  font-size: 30px; 
+  font-family: var(--accent-font);
+  text-align: left;
+  inline-size: fit-content;
+  letter-spacing: -4.3px;
+}

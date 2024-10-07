@@ -7,6 +7,7 @@
         entry: {
             main: './src/index.js',
             team: './src/pages/team.js',
+            team_dota2: './src/pages/team.js',
             news: './src/pages/news.js' 
         },
         output: {
@@ -62,6 +63,11 @@
                 template: './src/pages/team.html',
                 filename: 'team.html',
                 chunks: ['team'] 
+            }),
+            new HtmlWebpackPlugin({
+                template: './src/pages/team_dota2.html',
+                filename: 'team_dota2.html',
+                chunks: ['team_dota2'] 
             }),
     
 

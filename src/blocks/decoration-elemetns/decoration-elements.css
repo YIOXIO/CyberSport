@@ -8,7 +8,7 @@
     z-index: -1;
     top: -8%;
     left: -8%;
-    animation: smoothPulse 5s infinite ease-in-out;
+    /* animation: smoothPulse 5s infinite ease-in-out; */
 }
 
 .decoration-elements-cloud{
@@ -34,9 +34,12 @@
     animation: sandClock 5s infinite ease-in-out;
     inline-size: 90px;
     block-size: 90px;
-    top: 30%;
+    top: 10%;
+    transform: translateY(-50%);
     left: clamp(-5rem, -7.818rem + 9.091vw, -0.4rem);
 }
+
+
 .decoration-elements-sand-clock_small{
     background-image: url('../../svg/decoration-elements/sand-clock_small.svg');
     block-size: 50px;
@@ -59,7 +62,7 @@
     top: -5%;
     z-index: -1;
     left: revert-layer;
-    animation: smoothPulse 5s infinite ease-in-out;
+    /* animation: smoothPulse 5s infinite ease-in-out; */
 }
 
 .decoration-elements-U{
@@ -94,7 +97,7 @@
     top: 35%;
     z-index: -1;
     left: revert-layer;
-    animation: smoothPulse 5s infinite ease-in-out;
+    /* animation: smoothPulse 5s infinite ease-in-out; */
 }
 
 .decoration-elements_ligther-bottom{

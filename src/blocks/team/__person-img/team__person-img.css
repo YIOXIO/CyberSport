@@ -1,0 +1,5 @@
+.team__person-img{
+    inline-size: 100%;
+    object-fit: cover;
+    vertical-align: sub;
+}

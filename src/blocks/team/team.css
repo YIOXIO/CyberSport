@@ -13,7 +13,12 @@
 @import './__card-link/team__card-link.css';
 @import './__card-text/team__card-text.css';
 
-
+/* PERSON */
+@import './__person-card/team__person-card.css';
+@import './__person-img/team__person-img.css';
+@import './__person-name/team__person-name.css';
+@import './__person-nick/team__person-nick.css';
+@import './__person-wrapper/team__person-wrapper.css';
 
 
 .team{

@@ -36,6 +36,7 @@
 @import './blocks/footer/footer.css';
 
 
+
 .page {
     min-inline-size: 320px;
     min-block-size: 100dvb;
@@ -47,7 +48,6 @@
     background-attachment: fixed;
     overflow-x: hidden;
     line-height: normal;
-  
   }
 
 
