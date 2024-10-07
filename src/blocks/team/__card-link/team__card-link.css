@@ -1,0 +1,38 @@
+
+.team__card-link:hover .team__card-logo {
+    top: 10%;
+    transition: top .3s ease-out;
+}
+
+.team__card-link:hover .team__card-img,
+.team__card-link:hover .team__card-title {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .3s ease-out, visibility .3s;
+}
+.team__card-link:hover .team__card-text,
+.team__card-link:hover .team__card-img_active {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity .3s ease-out, visibility .3s;
+}
+
+.team__card-link:hover .team__card-img_active{
+    opacity: .85;
+}
+
+.team__card-link:hover .team__card-wrapper {
+    filter: none;
+    transition: filter .5s ease;
+}
+
+
+.team__card-link:hover .team__card {
+    border: 1px solid #000;
+    transition: border .1s ease;
+}
+
+
+.team__card-logo, .team__card-img_active, .team__card-title, .team__card-text, .team__card-wrapper{
+    transition: all .3s ease;
+}

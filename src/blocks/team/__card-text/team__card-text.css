@@ -1,0 +1,18 @@
+.team__card-text{
+    color: #FFF;
+    font-family: var(--accent-font);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 135%; /* 21.6px */
+    letter-spacing: 0.64px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-wrap: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .3s ease-out, visibility 0s .3s;
+}

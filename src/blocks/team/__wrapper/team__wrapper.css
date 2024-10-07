@@ -1,0 +1,7 @@
+.team__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-block-end: 67px;
+    flex-wrap: wrap;
+    gap: 35px;
+}

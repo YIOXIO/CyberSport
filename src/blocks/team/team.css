@@ -1,0 +1,29 @@
+@import './team.css';
+@import './__wrapper/team__wrapper.css';
+@import './__wrapper/_text/team__wrapper_text.css';
+@import './__text/team__text.css';
+@import './__text/_bold/team__text_bold.css';
+@import './__list/team__list.css';
+@import './__card/team__card.css';
+@import './__card-title/team__card-title.css';
+@import './__card-wrapper/team__card-wrapper.css';
+@import './__card-img/team__card-img.css';
+@import './__card-img/_actvive/team__card-img_active.css';
+@import './__card-logo/team__card-logo.css';
+@import './__card-link/team__card-link.css';
+@import './__card-text/team__card-text.css';
+
+
+
+
+.team{
+    margin-block-end: 71px;
+}
+
+.header{
+    margin-block-end: 55px;
+}
+
+.section-title{
+    gap: 20px
+}

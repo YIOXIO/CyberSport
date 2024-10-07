@@ -1,0 +1,24 @@
+/* Шрифты, переменные, глобальные стили*/
+@import '../vendor/normalize.css';
+@import '../styles/globals.css';
+@import '../styles/variables.css';
+@import '../vendor/fonts/fonts.css';
+
+/*Стили для анимация, контейнер, заговок для секций, бегущая строка, декоративные элементы, коллажа. */
+@import '../blocks/decoration-elemetns/decoration-elements.css';
+@import '../blocks/container/container.css';
+@import '../animation/animation.css';
+@import '../blocks/section-title/section-title.css';
+
+
+/* Стили для мобильного меню */
+@import '../blocks/burger/burger.css';
+
+/* Стили для шапки Header (Шапка) */
+@import '../blocks/header/header.css';
+
+/* Стили для секции Contact (Секция контакты) */
+@import '../blocks/contact/contact.css';
+
+
+@import '../blocks/footer/footer.css';

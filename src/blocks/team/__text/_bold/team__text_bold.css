@@ -1,0 +1,9 @@
+.team__text_bold{
+    color: var(--primary-text-color);
+    font-family: var(--main-font);
+    font-size: 22px;
+    font-style: normal;
+    font-variation-settings: var(--bold-weight);
+    line-height: normal;
+    letter-spacing: 0.1px;
+}

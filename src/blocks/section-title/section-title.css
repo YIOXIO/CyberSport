@@ -1,3 +1,4 @@
+
 .section-title{
     color: var(--primary-text-color);
     font-family: var(--accent-font);
@@ -12,3 +13,4 @@
     gap: clamp(0rem,-.955rem + 4.773vw,2.025rem);
     margin-block-end: 38px;
 }
+

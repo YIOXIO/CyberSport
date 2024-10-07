@@ -1,0 +1,17 @@
+.section-title_empty{
+    text-shadow: 
+ 0 0 2px #E5D9FD,
+        0 0 2px #E5D9FD,
+        0 0 2px #E5D9FD,
+        0 0 2px #E5D9FD;
+  color: var(--main-color); /* Цвет текста */
+}
+
+
+@supports ((-webkit-text-stroke: 2px #E5D9FD)) {
+    .section-title_empty {
+      -webkit-text-stroke: 2px #E5D9FD;
+      text-shadow: none;
+      color: transparent;
+    }
+  }
