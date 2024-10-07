@@ -19,7 +19,7 @@
 @import './__person-name/team__person-name.css';
 @import './__person-nick/team__person-nick.css';
 @import './__person-wrapper/team__person-wrapper.css';
-
+@import './__person-list/team__person-list.css';
 
 .team{
     margin-block-end: 71px;

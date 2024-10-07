@@ -1,0 +1,5 @@
+.team__person-list{
+    display: flex;
+    position: relative;
+    margin-block-end: 41px;
+}
