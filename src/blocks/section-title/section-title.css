@@ -9,6 +9,7 @@
     letter-spacing: 3.76px;
     text-transform: uppercase;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: clamp(0rem,-.955rem + 4.773vw,2.025rem);
     margin-block-end: 38px;
