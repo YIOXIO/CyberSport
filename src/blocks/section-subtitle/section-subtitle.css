@@ -8,13 +8,13 @@
     text-transform: uppercase;
     margin-block: -20px 47px;
     display: flex;
-    gap: 32px;
+    gap: clamp(0.75rem, 0.341rem + 2.045vw, 1.875rem);
     position: relative;
 }
 
 
 .section-subtitle img{
-    max-inline-size: 40px;
+    max-inline-size: clamp(1.875rem, 1.648rem + 1.136vw, 2.5rem);
     object-fit: contain;
 }
 
