@@ -102,7 +102,7 @@
 
 .decoration-elements_ligther-bottom{
     right: 5%;
-    bottom: -65%;
+    bottom: 0%;
     z-index: -1;
     top: revert-layer;
     left: revert-layer;

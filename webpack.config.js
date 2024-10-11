@@ -39,14 +39,27 @@
                     test: /\.css$/,
                     use: [MiniCssExtractPlugin.loader, {
                         loader: 'css-loader',
-                        options: {
-                            importLoaders: 1
-                        }
+                        // options: {
+                        //     importLoaders: 1,
+                        //     url: false, // Отключает обработку URL в CSS
+                        // }
                     },
                         'postcss-loader'
                     ]
                 },
-            ]
+                // {
+                //     test: /\.(png|jpe?g|gif|svg)$/i,
+                //     use: [
+                //       {
+                //         loader: 'file-loader',
+                //         options: {
+                //           name: '[path][name].[ext]', // Сохраняет оригинальные пути и имена файлов
+                //         },
+                //       },
+                //     ],
+                //   },
+            
+                ],                                            
         },
         plugins: [
             new HtmlWebpackPlugin({
@@ -72,7 +85,9 @@
     
 
             new CleanWebpackPlugin(),
-            new MiniCssExtractPlugin(),
+            new MiniCssExtractPlugin({
+                // filename: '[name].css',
+            }),
         ]
     };
 

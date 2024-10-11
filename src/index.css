@@ -11,6 +11,7 @@
 @import './blocks/collage/collage.css';
 @import './blocks/marquee/marquee.css';
 @import './blocks/section-title/section-title.css';
+@import './blocks/section-subtitle/section-subtitle.css';
 @import './blocks/primary-button/primary-button.css';
 
 /* Стили для мобильного меню */

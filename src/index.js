@@ -1,8 +1,8 @@
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import './index.css'
 import './js/swiper'
+import './index.css'
 
 const burgerMenu = document.querySelector('.burger-menu');
 const mobileNav = document.querySelector('.header__list_menu')
