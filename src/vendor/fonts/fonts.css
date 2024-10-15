@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Inter';
     src: url('../fonts/Inter/Inter-Medium.eot');
     src: local('Inter Medium'), local('Inter-Medium'),
@@ -8,7 +8,7 @@
         url('../fonts/Inter/Inter-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
-}
+} */
 
 
 @font-face {

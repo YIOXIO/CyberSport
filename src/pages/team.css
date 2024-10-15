@@ -11,7 +11,7 @@
 @import '../blocks/section-title/section-title.css';
 @import '../blocks/section-title/_empty/section-title_empty.css';
 @import '../blocks/primary-button/primary-button.css';
-
+@import '../blocks/section-subtitle/section-subtitle.css';
 
 /* Стили для мобильного меню */
 @import '../blocks/burger/burger.css';
@@ -56,7 +56,9 @@
     margin-block-end: 0;
 }
 
-
+.swiper{
+  margin-block-end: 60px;
+}
 
 /* Изменение цвета и символов кнопок навигации */
 .swiper-button-prev,

@@ -11,6 +11,7 @@
 @import './blocks/collage/collage.css';
 @import './blocks/marquee/marquee.css';
 @import './blocks/section-title/section-title.css';
+@import './blocks/section-subtitle/section-subtitle.css';
 @import './blocks/primary-button/primary-button.css';
 
 /* Стили для мобильного меню */
@@ -109,3 +110,28 @@
   inline-size: fit-content;
   letter-spacing: -4.3px;
 }
+
+
+::-webkit-scrollbar-track {
+  inline-size: 5px;
+  background-color: #6c76e7;
+
+
+
+}
+
+::-webkit-scrollbar{
+  background-color: #FFF;
+  inline-size: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(180deg,  var(--decoration-color) 10%, var(--decoration-color-light) 90%, #6c76e7);
+  border-radius: 15px;
+  border-radius: 15px;
+  animation: scrollAnimation 1s alternate infinite linear;
+}
+
+::-webkit-scrollbar-corner{
+  border-radius: 15px;
+} 

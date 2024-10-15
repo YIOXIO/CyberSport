@@ -1,5 +1,5 @@
 .team__person-card{
-    max-inline-size: 277px;
+    /* max-inline-size: 277px; */
     border: 2px solid #171717;
     box-shadow: 0px 4px 16.9px 0px rgba(221, 0, 240, 0.35);
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../img/bg-person.png');
