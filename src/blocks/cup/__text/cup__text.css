@@ -1,0 +1,8 @@
+.cup__text{
+    color: var(--primary-text-color);
+    font-family: var(--main-font);
+    font-variation-settings: var(--main-weight);
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+}

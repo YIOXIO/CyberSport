@@ -1,0 +1,10 @@
+.cup__text_bold{
+    color: var(--primary-text-color);
+    font-family: var(--main-font);
+    font-variation-settings: var(--bold-weight);
+    font-size: 22px;
+    font-style: normal;
+    line-height: normal;
+    margin-block-end: 32px;
+}
+

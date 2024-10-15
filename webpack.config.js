@@ -8,7 +8,8 @@
             main: './src/index.js',
             team: './src/pages/team.js',
             team_dota2: './src/pages/team.js',
-            news: './src/pages/news.js' 
+            news: './src/pages/news.js' ,
+            cup: './src/pages/cup.js' 
         },
         output: {
             path: path.resolve(__dirname, 'dist'),
@@ -68,6 +69,11 @@
                 template: './src/pages/team_dota2.html',
                 filename: 'team_dota2.html',
                 chunks: ['team_dota2'] 
+            }),
+            new HtmlWebpackPlugin({
+                template: './src/pages/cup.html',
+                filename: 'cup.html',
+                chunks: ['cup'] 
             }),
     
 

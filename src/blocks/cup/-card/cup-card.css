@@ -1,0 +1,11 @@
+.cup-card{
+    background-color: rgba(58, 58, 58, 0.25);
+    box-shadow: 3.279px -3.279px 25.756px 0px rgba(182, 182, 182, 0.30) inset, -2px 2px 4.9px 0px rgba(255, 255, 255, 0.30) inset;
+    backdrop-filter: blur(2.585789442062378px);
+    padding-inline: 54px;
+    padding-block: 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    block-size: 100%;
+}

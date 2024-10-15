@@ -1,0 +1,6 @@
+.cup__wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-block-end: 50px;
+}

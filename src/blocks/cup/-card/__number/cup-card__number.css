@@ -1,0 +1,35 @@
+.cup-card__number{
+    text-align: center;
+    font-family: var(--accent-font);
+    font-size: 44px;
+    font-style: normal;
+    line-height: normal;
+    max-inline-size: 228px;
+    text-shadow: 
+    0 0 2px #E5D9FD,
+           0 0 2px #E5D9FD,
+           0 0 2px #E5D9FD,
+           0 0 2px #E5D9FD;
+     color: var(--primary-text-colorcolor); /* Цвет текста */
+}
+
+.cup-card__number::after{
+    content: '';
+    display: block;
+    opacity: 0.35;
+    background-color: var(--primary-text-color);
+    inline-size: 135px;
+    margin-inline: auto;
+    block-size: 1px;
+    margin-block: 20px;
+}
+
+
+
+@supports ((-webkit-text-stroke: 2px #E5D9FD)) {
+    .cup-card__number {
+      -webkit-text-stroke: 2px #E5D9FD;
+      text-shadow: none;
+      color: transparent;
+    }
+  }

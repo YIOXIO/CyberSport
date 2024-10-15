@@ -1,0 +1,8 @@
+.cup-card__text{
+    color: var(--primary-text-color);
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 13px;
+    font-style: normal;
+    line-height: normal;
+}
