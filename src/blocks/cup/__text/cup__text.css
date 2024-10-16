@@ -5,4 +5,17 @@
     font-size: 18px;
     font-style: normal;
     line-height: normal;
+    display:flex;
+    gap: 10px;
+    align-items: flex-end;
+    max-inline-size: 822px;
+}
+
+.cup__text>img{
+    max-inline-size: 38px;
+}
+
+
+.cup__text_mbe{
+    margin-block-end: 50px;
 }

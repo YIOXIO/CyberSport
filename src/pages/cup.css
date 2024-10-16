@@ -10,9 +10,10 @@
 @import '../animation/animation.css';
 @import '../blocks/section-title/section-title.css';
 @import '../blocks/section-title/_empty/section-title_empty.css';
+@import '../blocks/section-subtitle/section-subtitle.css';
 @import '../blocks/primary-button/primary-button.css';
+@import '../blocks/collage/collage.css';
 @import '../blocks/cup/cup.css';
-
 /* Стили для мобильного меню */
 @import '../blocks/burger/burger.css';
 

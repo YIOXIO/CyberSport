@@ -5,3 +5,68 @@
 @import './-card/cup-card.css';
 @import './-card/__number/cup-card__number.css';
 @import './-card/__text/cup-card__text.css';
+
+
+
+.cup__figure{
+    margin: 0;
+    max-inline-size: 593px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cup__figure-img{
+    block-size: 100%;
+    max-inline-size: 593px;
+    inline-size: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+.cup__figcaption{
+    padding: 20px;
+    text-align: center;
+    color: var(--secondary-text-color);
+    text-align: center;
+    font-family: var(--accent-font);
+    font-size: 20px;
+    line-height: normal;
+    background-color: var(--bg-color);
+}
+
+
+.cup__wrapper-img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 20px;
+    margin-block-end: 60px;
+}
+
+.cup__collage{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px,1fr));    
+    margin-block-end: 60px;
+}
+
+.cup__collage-img{
+    inline-size: 100%;
+    object-fit: cover;
+    block-size: 100%;
+}
+
+
+.cup__collage-img:nth-child(1){
+    margin-block-start: -20px;
+}
+.cup__collage-img:nth-child(3){
+    margin-block-start: -20px;
+}
+.cup__collage-img:nth-child(4){
+    margin-block-start: -50px;
+}
+.cup__collage-img:nth-child(6){
+    margin-block-start: -50px;
+}
+
+
