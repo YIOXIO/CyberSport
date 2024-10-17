@@ -8,7 +8,6 @@
     display:flex;
     gap: 10px;
     align-items: flex-end;
-    max-inline-size: 822px;
 }
 
 .cup__text>img{

@@ -36,8 +36,8 @@
                         <address>
                             <a target="_blank"
                                 href="https://www.xn--p1ag3a.xn--p1ai/news/24490-plehanovskiy-universitet-pervyiy--sredi-vuzov-rossii-udostoen-gosudarstvennoy-nagradyi-za-uspehi-v-trude">
-                                <img loading="lazy" rel="preload" class="header__logo"
-                                    src="<%=require('../svg/logos/reu-medal.svg')%>"
+                                <img class="header__logo"
+                                    src="<?php echo bloginfo('template_url'); ?>/assets/svg/logos/reu-medal.svg"
                                     alt="На изображении награда за успехи в труде от президента РФ">
                             </a>
                         </address>
@@ -45,8 +45,8 @@
                     <li>
                         </address>
                         <a target="_blank" href="https://xn--p1ag3a.xn--p1ai/">
-                            <img loading="lazy" rel="preload" class="header__logo"
-                                src="<%=require('../svg/logos/reu-logo.svg')%>"
+                            <img class="header__logo"
+                                src="<?php echo bloginfo('template_url'); ?>/assets/svg/logos/reu-logo.svg"
                                 alt="На изображении логотип РЭУ им. Г.В. Плеханова">
                         </a>
                         </address>
@@ -54,8 +54,8 @@
                     <li>
                         </address>
                         <a target="_blank" href="">
-                            <img loading="lazy" rel="preload" class="header__logo"
-                                src="<%=require('../svg/logos/logo-UCT_black.svg')%>"
+                            <img class="header__logo"
+                                src="<?php echo bloginfo('template_url'); ?>/assets/svg/logos/logo-UCT_black.svg"
                                 alt="На изображении логотип управления цифровой трансформации">
                         </a>
                         </address>
@@ -85,9 +85,9 @@
 
 
         <main class="main">
-                <section class="cup">
-                    <div class="container">
-                        <p class="cup__text cup__text_bold">Международный студенческий киберспортивный турнир</p>
+            <section class="cup">
+                <div class="container">
+                    <p class="cup__text cup__text_bold">Международный студенческий киберспортивный турнир</p>
                     <h1 class="section-title "><span class="section-title_empty">«КУБОК</span> РЭУ.РФ»</h1>
                     <article class="cup__wrapper">
                         <p class="cup__text">Международный студенческий киберспортивный турнир</p>
@@ -122,92 +122,144 @@
                     <h2 class="section-subtitle">2 основные дисциплины</h2>
                     <div class="cup__wrapper-img">
                         <article class="cup__figure">
-                            <img class="cup__figure-img" src="<%=require('../img/cup-images/cs2.png')%>" alt="Описание изображения">
+                            <img class="cup__figure-img"
+                                src="<?php echo bloginfo('template_url'); ?>/assets/img/cup-images/cs2.png"
+                                alt="Описание изображения">
                             <p class="cup__figcaption">CS2</p>
                         </article>
-                          <article class="cup__figure">
-                            <img class="cup__figure-img" src="<%=require('../img/cup-images/dota2.avif')%>" alt="Описание изображения">
+                        <article class="cup__figure">
+                            <img class="cup__figure-img"
+                                src="<?php echo bloginfo('template_url'); ?>/assets/img/cup-images/dota2.avif"
+                                alt="Описание изображения">
                             <p class="cup__figcaption">Dota 2</p>
-                          </article>
+                        </article>
                     </div>
                     <div class="cup__wrapper">
-                        <p class="cup__text "><img loading="lazy" rel="preload" 
-                            src="<%=require('../svg/decoration-elements/cup.svg')%>" alt="На изображении золотой кубок"> Команды учебных подразделений соревнуются не только за медали в своих дисциплинах, но и за баллы в общекомандном зачёте. Лучшее подразделение забирает Кубок на годовое хранение</p>
+                        <p class="cup__text "><img
+                                src="<?php echo bloginfo('template_url'); ?>/assets/svg/decoration-elements/cup.svg"
+                                alt="На изображении золотой кубок"> Команды учебных подразделений соревнуются не только
+                            за медали в своих дисциплинах,<br> но и за баллы в общекомандном зачёте. Лучшее
+                            подразделение забирает Кубок на годовое хранение</p>
                     </div>
 
 
-                        <ul class="cup__list">
-                            <li>
-                                <article class="cup-card">
-                                    <h3 class="cup-card__number">400+</h3>
-                                    <p class="cup-card__text">400+ киберспортсменов ежегодно</p>
-                                </article>
-                            </li>
-                            <li>
-                                <article class="cup-card">
-                                    <h3 class="cup-card__number">10000+</h3>
-                                    <p class="cup-card__text">зрителей онлайн-трансляций</p>
-                                </article>
-                            </li>
-                            <li>
-                                <article class="cup-card">
-                                    <h3 class="cup-card__number">500+</h3>
-                                    <p class="cup-card__text">участников форума «Месяц киберспорта»</p>
-                                </article>
-                            </li>
-                        </ul>                        
-                            <article class="cup__collage">
-
-                  
-                                <img class="cup__collage-img" loading="lazy" rel="preload" 
-                                    src="<%=require('../img/cup-images/collage-cup-img/collage-cup.avif')%>"
-                                    alt="На изображении картинка из игры Dota 2">
-                            
-    
-                  
-                                <img class="cup__collage-img" loading="lazy" rel="preload" 
-                                    src="<%=require('../img/cup-images/collage-cup-img/collage-cup1.avif')%>"
-                                    alt="На изображении картинка из игры CS2">
-                            
-  
-                                <img class="cup__collage-img" loading="lazy" rel="preload" 
-                                    src="<%=require('../img/cup-images/collage-cup-img/collage-cup2.avif')%>"
-                                    alt="На изображении картинка из игры Valorant">
-                            
-    
-                                <img class="cup__collage-img" loading="lazy" rel="preload" 
-                                    src="<%=require('../img/cup-images/collage-cup-img/collage-cup3.avif')%>"
-                                    alt="На изображении картинка из игры Tekken 8">
-                 
-                                <img class="cup__collage-img" loading="lazy" rel="preload" 
-                                    src="<%=require('../img/cup-images/collage-cup-img/collage-cup4.avif')%>"
-                                    alt="На изображении картинка из игры FIFA">
-                            
-    
-                                <img class="cup__collage-img" loading="lazy" rel="preload" 
-                                    src="<%=require('../img/cup-images/collage-cup-img/collage-cup5.avif')%>"
-                                    alt="На изображении картинка со списком других, киберспортивных дисциплин">
-                            
-<!--     
-                                <img class="cup__collage-img" loading="lazy" rel="preload" width="586" height="346"
-                                    src="<%=require('../img/cup-images/collage-cup-img/collage-cup6.avif')%>"
-                                    alt="На изображении картинка со списком других, киберспортивных дисциплин"> -->
-                            
-                        </article>
-             
-                        <h2 class="section-subtitle">Как это было</h2>
-                        <div class="cup__wrapper-img">
-                            <article class="cup__figure">
-                                <img class="cup__figure-img" src="<%=require('../img/cup-images/cs2.png')%>" alt="Описание изображения">
-                                <p class="cup__figcaption">CS2</p>
+                    <ul class="cup__list">
+                        <li>
+                            <article class="cup-card">
+                                <h3 class="cup-card__number">400+</h3>
+                                <p class="cup-card__text">400+ киберспортсменов ежегодно</p>
                             </article>
-                              <article class="cup__figure">
-                                <img class="cup__figure-img" src="<%=require('../img/cup-images/dota2.avif')%>" alt="Описание изображения">
-                                <p class="cup__figcaption">Dota 2</p>
-                              </article>
-                        </div>
+                        </li>
+                        <li>
+                            <article class="cup-card">
+                                <h3 class="cup-card__number">10000+</h3>
+                                <p class="cup-card__text">зрителей онлайн-трансляций</p>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="cup-card">
+                                <h3 class="cup-card__number">500+</h3>
+                                <p class="cup-card__text">участников форума «Месяц киберспорта»</p>
+                            </article>
+                        </li>
+                    </ul>
+                    <div class="cup__collage">
+
+                        <article data-text="На изображении какое - то мероприятие" class="cup__collage-wrapper">
+                            <svg class="cup__collage-cross" version="1.0" fill="#5A5A5A"
+                                xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 512 512">
+                                <path
+                                    d="m36.8 18.2-.3 18.3-18.2.3L0 37v48l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h36l.2 18.2.3 18.3 18.3.3 18.2.2v48l-18.2.2-18.3.3-.3 18.2-.2 18.3h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36H37l-.2 18.3-.3 18.2-18.3.3L0 427v48l18.3.2 18.2.3.3 18.3.2 18.2h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36l18.3-.2 18.2-.3.3-18.3.2-18.2h48l.2 18.2.3 18.3 18.3.3 18.2.2v36l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-48l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36v-36l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-48l18.3-.2 18.2-.3.3-18.3.2-18.2h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3L512 85V37l-18.2-.2-18.3-.3-.3-18.3L475 0h-48l-.2 18.2-.3 18.3-18.2.3-18.3.2v36h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36l-18.2.2-18.3.3-.3 18.2-.2 18.3h-48l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-36l-18.2-.2-18.3-.3-.3-18.3L158 73h-36V37l-18.2-.2-18.3-.3-.3-18.3L85 0H37l-.2 18.2z" />
+                            </svg>
+                            <img class="cup__collage-img"
+                                src="<?php echo bloginfo('template_url'); ?>/assets/img/cup-images/collage-cup-img/collage-cup.avif"
+                                alt="На изображении картинка из игры Dota 2">
+                        </article>
+                        <article class="cup__collage-wrapper">
+                            <svg class="cup__collage-cross" version="1.0" fill="#5A5A5A"
+                                xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 512 512">
+                                <path
+                                    d="m36.8 18.2-.3 18.3-18.2.3L0 37v48l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h36l.2 18.2.3 18.3 18.3.3 18.2.2v48l-18.2.2-18.3.3-.3 18.2-.2 18.3h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36H37l-.2 18.3-.3 18.2-18.3.3L0 427v48l18.3.2 18.2.3.3 18.3.2 18.2h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36l18.3-.2 18.2-.3.3-18.3.2-18.2h48l.2 18.2.3 18.3 18.3.3 18.2.2v36l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-48l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36v-36l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-48l18.3-.2 18.2-.3.3-18.3.2-18.2h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3L512 85V37l-18.2-.2-18.3-.3-.3-18.3L475 0h-48l-.2 18.2-.3 18.3-18.2.3-18.3.2v36h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36l-18.2.2-18.3.3-.3 18.2-.2 18.3h-48l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-36l-18.2-.2-18.3-.3-.3-18.3L158 73h-36V37l-18.2-.2-18.3-.3-.3-18.3L85 0H37l-.2 18.2z" />
+                            </svg>
+                            <img class="cup__collage-img"
+                                src="<?php echo bloginfo('template_url'); ?>/assets/img/cup-images/collage-cup-img/collage-cup1.avif"
+                                alt="На изображении картинка из игры Dota 2">
+                        </article>
+                        <article class="cup__collage-wrapper">
+                            <svg class="cup__collage-cross" version="1.0" fill="#5A5A5A"
+                                xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 512 512">
+                                <path
+                                    d="m36.8 18.2-.3 18.3-18.2.3L0 37v48l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h36l.2 18.2.3 18.3 18.3.3 18.2.2v48l-18.2.2-18.3.3-.3 18.2-.2 18.3h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36H37l-.2 18.3-.3 18.2-18.3.3L0 427v48l18.3.2 18.2.3.3 18.3.2 18.2h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36l18.3-.2 18.2-.3.3-18.3.2-18.2h48l.2 18.2.3 18.3 18.3.3 18.2.2v36l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-48l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36v-36l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-48l18.3-.2 18.2-.3.3-18.3.2-18.2h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3L512 85V37l-18.2-.2-18.3-.3-.3-18.3L475 0h-48l-.2 18.2-.3 18.3-18.2.3-18.3.2v36h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36l-18.2.2-18.3.3-.3 18.2-.2 18.3h-48l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-36l-18.2-.2-18.3-.3-.3-18.3L158 73h-36V37l-18.2-.2-18.3-.3-.3-18.3L85 0H37l-.2 18.2z" />
+                            </svg>
+                            <img class="cup__collage-img"
+                                src="<?php echo bloginfo('template_url'); ?>/assets/img/cup-images/collage-cup-img/collage-cup2.avif"
+                                alt="На изображении картинка из игры Dota 2">
+                        </article>
+                        <article class="cup__collage-wrapper">
+                            <svg class="cup__collage-cross" version="1.0" fill="#5A5A5A"
+                                xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 512 512">
+                                <path
+                                    d="m36.8 18.2-.3 18.3-18.2.3L0 37v48l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h36l.2 18.2.3 18.3 18.3.3 18.2.2v48l-18.2.2-18.3.3-.3 18.2-.2 18.3h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36H37l-.2 18.3-.3 18.2-18.3.3L0 427v48l18.3.2 18.2.3.3 18.3.2 18.2h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36l18.3-.2 18.2-.3.3-18.3.2-18.2h48l.2 18.2.3 18.3 18.3.3 18.2.2v36l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-48l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36v-36l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-48l18.3-.2 18.2-.3.3-18.3.2-18.2h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3L512 85V37l-18.2-.2-18.3-.3-.3-18.3L475 0h-48l-.2 18.2-.3 18.3-18.2.3-18.3.2v36h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36l-18.2.2-18.3.3-.3 18.2-.2 18.3h-48l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-36l-18.2-.2-18.3-.3-.3-18.3L158 73h-36V37l-18.2-.2-18.3-.3-.3-18.3L85 0H37l-.2 18.2z" />
+                            </svg>
+                            <img class="cup__collage-img"
+                                src="<?php echo bloginfo('template_url'); ?>/assets/img/cup-images/collage-cup-img/collage-cup3.avif"
+                                alt="На изображении картинка из игры Dota 2">
+                        </article>
+                        <article class="cup__collage-wrapper">
+                            <svg class="cup__collage-cross" version="1.0" fill="#5A5A5A"
+                                xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 512 512">
+                                <path
+                                    d="m36.8 18.2-.3 18.3-18.2.3L0 37v48l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h36l.2 18.2.3 18.3 18.3.3 18.2.2v48l-18.2.2-18.3.3-.3 18.2-.2 18.3h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36H37l-.2 18.3-.3 18.2-18.3.3L0 427v48l18.3.2 18.2.3.3 18.3.2 18.2h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36l18.3-.2 18.2-.3.3-18.3.2-18.2h48l.2 18.2.3 18.3 18.3.3 18.2.2v36l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-48l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36v-36l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-48l18.3-.2 18.2-.3.3-18.3.2-18.2h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3L512 85V37l-18.2-.2-18.3-.3-.3-18.3L475 0h-48l-.2 18.2-.3 18.3-18.2.3-18.3.2v36h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36l-18.2.2-18.3.3-.3 18.2-.2 18.3h-48l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-36l-18.2-.2-18.3-.3-.3-18.3L158 73h-36V37l-18.2-.2-18.3-.3-.3-18.3L85 0H37l-.2 18.2z" />
+                            </svg>
+                            <img class="cup__collage-img"
+                                src="<?php echo bloginfo('template_url'); ?>/assets/img/cup-images/collage-cup-img/collage-cup4.avif"
+                                alt="На изображении картинка из игры Dota 2">
+                        </article>
+                        <article class="cup__collage-wrapper">
+                            <svg class="cup__collage-cross" version="1.0" fill="#5A5A5A"
+                                xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 512 512">
+                                <path
+                                    d="m36.8 18.2-.3 18.3-18.2.3L0 37v48l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h36l.2 18.2.3 18.3 18.3.3 18.2.2v48l-18.2.2-18.3.3-.3 18.2-.2 18.3h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36H37l-.2 18.3-.3 18.2-18.3.3L0 427v48l18.3.2 18.2.3.3 18.3.2 18.2h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36l18.3-.2 18.2-.3.3-18.3.2-18.2h48l.2 18.2.3 18.3 18.3.3 18.2.2v36l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-48l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36v-36l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-48l18.3-.2 18.2-.3.3-18.3.2-18.2h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3L512 85V37l-18.2-.2-18.3-.3-.3-18.3L475 0h-48l-.2 18.2-.3 18.3-18.2.3-18.3.2v36h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36l-18.2.2-18.3.3-.3 18.2-.2 18.3h-48l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-36l-18.2-.2-18.3-.3-.3-18.3L158 73h-36V37l-18.2-.2-18.3-.3-.3-18.3L85 0H37l-.2 18.2z" />
+                            </svg>
+                            <img class="cup__collage-img"
+                                src="<?php echo bloginfo('template_url'); ?>/assets/img/cup-images/collage-cup-img/collage-cup5.avif"
+                                alt="На изображении картинка из игры Dota 2">
+                        </article>
+                        <article class="cup__collage-wrapper">
+                            <svg class="cup__collage-cross" version="1.0" fill="#5A5A5A"
+                                xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 512 512">
+                                <path
+                                    d="m36.8 18.2-.3 18.3-18.2.3L0 37v48l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h36l.2 18.2.3 18.3 18.3.3 18.2.2v48l-18.2.2-18.3.3-.3 18.2-.2 18.3h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36H37l-.2 18.3-.3 18.2-18.3.3L0 427v48l18.3.2 18.2.3.3 18.3.2 18.2h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36l18.3-.2 18.2-.3.3-18.3.2-18.2h48l.2 18.2.3 18.3 18.3.3 18.2.2v36l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-48l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36v-36l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-48l18.3-.2 18.2-.3.3-18.3.2-18.2h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3L512 85V37l-18.2-.2-18.3-.3-.3-18.3L475 0h-48l-.2 18.2-.3 18.3-18.2.3-18.3.2v36h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36l-18.2.2-18.3.3-.3 18.2-.2 18.3h-48l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-36l-18.2-.2-18.3-.3-.3-18.3L158 73h-36V37l-18.2-.2-18.3-.3-.3-18.3L85 0H37l-.2 18.2z" />
+                            </svg>
+                            <img class="cup__collage-img"
+                                src="<?php echo bloginfo('template_url'); ?>/assets/img/cup-images/collage-cup-img/collage-cup6.avif"
+                                alt="На изображении картинка из игры Dota 2">
+                        </article>
+
+
+
+
+
+
                     </div>
-                </section>
+
+                    <h2 class="section-subtitle">Как это было</h2>
+                    <div class="cup__wrapper-img">
+                        <article class="cup__figure">
+                            <img class="cup__figure-img"
+                                src="<?php echo bloginfo('template_url'); ?>/assets/img/cup-images/cs2.png"
+                                alt="Описание изображения">
+                            <p class="cup__figcaption">CS2</p>
+                        </article>
+                        <article class="cup__figure">
+                            <img class="cup__figure-img"
+                                src="<?php echo bloginfo('template_url'); ?>/assets/img/cup-images/dota2.avif"
+                                alt="Описание изображения">
+                            <p class="cup__figcaption">Dota 2</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
         </main>
 
 
@@ -218,8 +270,8 @@
                         <address>
                             <a target="_blank"
                                 href="https://www.xn--p1ag3a.xn--p1ai/news/24490-plehanovskiy-universitet-pervyiy--sredi-vuzov-rossii-udostoen-gosudarstvennoy-nagradyi-za-uspehi-v-trude">
-                                <img loading="lazy" rel="preload" loading="lazy" class="footer__logo"
-                                    src="<%=require('../svg/logos/reu-medal.svg')%>"
+                                <img class="footer__logo"
+                                    src="<?php echo bloginfo('template_url'); ?>/assets/svg/logos/reu-medal.svg"
                                     alt="На изображении награда за успехи в труде от президента РФ">
                             </a>
                         </address>
@@ -227,8 +279,8 @@
                     <li>
                         </address>
                         <a target="_blank" href="https://xn--p1ag3a.xn--p1ai/">
-                            <img loading="lazy" rel="preload" loading="lazy" class="footer__logo"
-                                src="<%=require('../svg/logos/reu-white.svg')%>"
+                            <img class="footer__logo"
+                                src="<?php echo bloginfo('template_url'); ?>/assets/svg/logos/reu-white.svg"
                                 alt="На изображении логотип РЭУ им. Г.В. Плеханова">
                         </a>
                         </address>
@@ -236,8 +288,8 @@
                     <li>
                         </address>
                         <a target="_blank" href="">
-                            <img loading="lazy" rel="preload" loading="lazy" class="footer__logo"
-                                src="<%=require('../svg/logos/uct-white-logo.svg')%>"
+                            <img class="footer__logo"
+                                src="<?php echo bloginfo('template_url'); ?>/assets/svg/logos/uct-white-logo.svg"
                                 alt="На изображении логотип управления цифровой трансформации">
                         </a>
                         </address>
