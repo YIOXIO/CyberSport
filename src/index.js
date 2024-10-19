@@ -12,11 +12,15 @@ burgerMenu.addEventListener('click', () => {
     mobileNav.classList.toggle('header__list_menu_is-active');
 });
 
-if (document.querySelector('.opacity')) {
+document.querySelectorAll('.opacity').forEach(element => {
     import('./js/opacity.js').then(({ setOpacity }) => {
-        setOpacity();
+        setOpacity(element);
+
+        // Добавляем обработчики событий для каждого элемента
+        window.addEventListener('load', () => setOpacity(element));
+        window.addEventListener('resize', () => setOpacity(element));
     });
-}
+});
 
 if (document.querySelector('.marquee__list')){
     import('./js/marquee.js').then(({ moveMarquee }) => {

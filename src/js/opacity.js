@@ -1,5 +1,4 @@
-export function setOpacity() {
-    const opacityElement = document.querySelector('.opacity');
+export function setOpacity(opacityElement) {
     const width = window.innerWidth;
     const minWidth = 320;
     const maxWidth = 1200;
@@ -8,6 +7,3 @@ export function setOpacity() {
     const opacity = minOpacity + (maxOpacity - minOpacity) * ((width - minWidth) / (maxWidth - minWidth));
     opacityElement.style.opacity = Math.min(Math.max(opacity, minOpacity), maxOpacity);
 }
-
-window.addEventListener('load', setOpacity);
-window.addEventListener('resize', setOpacity);
