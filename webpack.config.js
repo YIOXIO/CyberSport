@@ -24,18 +24,18 @@ module.exports = {
         port: 8081,
         open: true,
     },
-    optimization: {
-        splitChunks: {
-            chunks: 'all',
-            cacheGroups: {
-                defaultVendors: {
-                    test: /[\\/]node_modules[\\/]/,
-                    name: 'vendors',
-                    chunks: 'all',
-                },
-            },
-        },
-    },
+    // optimization: {
+    //     splitChunks: {
+    //         chunks: 'all',
+    //         cacheGroups: {
+    //             defaultVendors: {
+    //                 test: /[\\/]node_modules[\\/]/,
+    //                 name: 'vendors',
+    //                 chunks: 'all',
+    //             },
+    //         },
+    //     },
+    // },
     module: {
         rules: [
             {
@@ -80,8 +80,6 @@ module.exports = {
             chunks: ['cup'],
         }),
         new CleanWebpackPlugin(),
-        new MiniCssExtractPlugin({
-            filename: '[name].css',
-        }),
+        new MiniCssExtractPlugin()
     ],
 };

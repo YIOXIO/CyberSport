@@ -8,3 +8,116 @@
     top:0;
     z-index: -1;
 }
+
+
+.collage__wrapper{
+    border: #1E20D6 solid 2.16px;
+    position: absolute;
+    width: 313.733px;
+    height: 151.537px;
+    flex-shrink: 0;
+    display: flex;
+    background-color: var(--bg-color);
+    transition: transform 0.5s ease, z-index 0.5s ease; 
+    opacity: 0; 
+    animation: fadeIn 2s ease forwards; 
+}
+
+.collage__wrapper:nth-child(1){
+    left: 49.1%;
+    z-index: 1;
+    top: -4.6%;
+    animation-delay: 0s; 
+}
+
+.collage__wrapper:nth-child(2){
+    left: 83.9%;
+    top: 19.9px;
+    transform: translateX(-50%);
+    z-index: 2;
+    animation-delay: 0.2s; 
+}
+
+.collage__wrapper:nth-child(3){
+    left: 64.3%;
+    top: 85px;
+    transform: translateX(-50%);
+    z-index: 3;
+    animation-delay: 0.4s; 
+}
+.collage__wrapper:nth-child(4){
+    left: 87.3%;
+    top: 146px;
+    transform: translateX(-50%);
+    z-index: 5;
+    animation-delay: 0.6s; 
+}
+.collage__wrapper:nth-child(5){
+    left: 67.4%;
+    top: 200.1px;
+    transform: translateX(-50%);
+    z-index: 6;
+    animation-delay: .8s; 
+}
+.collage__wrapper:nth-child(6){
+    left: 81.8%;
+    top: 260.7px;
+    transform: translateX(-50%);
+    z-index: 6;
+    animation-delay: 1s;
+    max-inline-size: 290px;
+    max-block-size: 148px;
+    border-image:  linear-gradient(90deg, #421AD5 0%, #EDBCD7 100%);
+
+}
+
+
+
+
+.collage__wrapper::before{
+    content: attr(data-text);
+    display: block;
+    position: absolute;
+    background-color: #0002C9;
+    block-size: 22px;
+    inline-size: 100%;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    padding-inline-start: 10px;
+    color: #FFF;
+    font-family: var(--main-font);
+    font-size: 12.989px;
+   font-variation-settings: var(--card-title-weight);
+}
+
+.collage__wrapper:nth-child(6)::before{
+    background-image: linear-gradient(90deg, #421AD5 0%, #EDBCD7 100%);
+}
+
+.collage-cross{
+    z-index: 999;
+    position: absolute;
+    background-color: var(--bg-color);
+    padding: 3px;
+    block-size: 15.4px;
+    inline-size: 15.4px;
+    top: 2.8px;
+    right: 2px;
+}
+
+.collage__wrapper-text{
+    padding: 38px;
+    display: flex;
+    flex-direction: column;
+    font-size: 12.989px;
+    text-wrap: balance;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.collage__wrapper-button{
+    padding-inline: 36px;
+    padding-block: 6px;
+}

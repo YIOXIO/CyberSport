@@ -116,61 +116,79 @@
 
                         </li>
                     </ul>
-                    <article class="collage">
-                        <picture class="collage__img">
-                            <source type="image/avif" srcset="<%=require('./img/decoration-images/dota2.avif')%>">
-                            <source type="image/webp" srcset="<%=require('./img/decoration-images/dota2.webp')%>">
-                            <img loading="lazy" rel="preload" width="586" height="346"
-                                src="<%=require('./img/decoration-images/dota2.png')%>"
+                    <div class="collage opacity">
+                        <article data-text="Dota 2" class="collage__wrapper">
+                            <img class="collage__img" src="<%=require('./img/decoration-images/dota2.avif')%>"
                                 alt="На изображении картинка из игры Dota 2">
-                        </picture>
 
-                        <picture class="collage__img">
-                            <source type="image/avif" srcset="<%=require('./img/decoration-images/csgo.avif')%>">
-                            <source type="image/webp" srcset="<%=require('./img/decoration-images/csgo.webp')%>">
-                            <img loading="lazy" rel="preload" width="586" height="346"
-                                src="<%=require('./img/decoration-images/csgo.png')%>"
-                                alt="На изображении картинка из игры CS2">
-                        </picture>
+                            <svg viewBox="0 0 24 24" width="24" height="24" class="collage-cross">
+                                <use href="./svg/decoration-elements/cross-element.svg#cross"></use>
+                            </svg>
+                            <!-- <svg class="collage-cross" version="1.0" fill="#5A5A5A" xmlns="http://www.w3.org/2000/svg"
+                                width="17" height="17" viewBox="0 0 512 512">
+                                <path
+                                    d="m36.8 18.2-.3 18.3-18.2.3L0 37v48l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h36l.2 18.2.3 18.3 18.3.3 18.2.2v48l-18.2.2-18.3.3-.3 18.2-.2 18.3h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36H37l-.2 18.3-.3 18.2-18.3.3L0 427v48l18.3.2 18.2.3.3 18.3.2 18.2h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36l18.3-.2 18.2-.3.3-18.3.2-18.2h48l.2 18.2.3 18.3 18.3.3 18.2.2v36l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-48l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36v-36l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-48l18.3-.2 18.2-.3.3-18.3.2-18.2h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3L512 85V37l-18.2-.2-18.3-.3-.3-18.3L475 0h-48l-.2 18.2-.3 18.3-18.2.3-18.3.2v36h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36l-18.2.2-18.3.3-.3 18.2-.2 18.3h-48l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-36l-18.2-.2-18.3-.3-.3-18.3L158 73h-36V37l-18.2-.2-18.3-.3-.3-18.3L85 0H37l-.2 18.2z" />
+                            </svg> -->
+                        </article>
 
-                        <picture class="collage__img">
-                            <source type="image/avif" srcset="<%=require('./img/decoration-images/valorant.avif')%>">
-                            <source type="image/webp" srcset="<%=require('./img/decoration-images/valorant.webp')%>">
-                            <img loading="lazy" rel="preload" width="586" height="346"
-                                src="<%=require('./img/decoration-images/valorant.png')%>"
-                                alt="На изображении картинка из игры Valorant">
-                        </picture>
 
-                        <picture class="collage__img">
-                            <source type="image/avif" srcset="<%=require('./img/decoration-images/tekken8.avif')%>">
-                            <source type="image/webp" srcset="<%=require('./img/decoration-images/tekken8.webp')%>">
-                            <img loading="lazy" rel="preload" width="586" height="346"
-                                src="<%=require('./img/decoration-images/tekken8.png')%>"
-                                alt="На изображении картинка из игры Tekken 8">
-                        </picture>
+                        <article data-text="CS2" class="collage__wrapper">
+                            <img class="collage__img" src="<%=require('./img/decoration-images/cs2.avif')%>"
+                                alt="На изображении картинка из игры Dota 2">
+                            <svg class="collage-cross" version="1.0" fill="#5A5A5A" xmlns="http://www.w3.org/2000/svg"
+                                width="17" height="17" viewBox="0 0 512 512">
+                                <path
+                                    d="m36.8 18.2-.3 18.3-18.2.3L0 37v48l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h36l.2 18.2.3 18.3 18.3.3 18.2.2v48l-18.2.2-18.3.3-.3 18.2-.2 18.3h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36H37l-.2 18.3-.3 18.2-18.3.3L0 427v48l18.3.2 18.2.3.3 18.3.2 18.2h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36l18.3-.2 18.2-.3.3-18.3.2-18.2h48l.2 18.2.3 18.3 18.3.3 18.2.2v36l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-48l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36v-36l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-48l18.3-.2 18.2-.3.3-18.3.2-18.2h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3L512 85V37l-18.2-.2-18.3-.3-.3-18.3L475 0h-48l-.2 18.2-.3 18.3-18.2.3-18.3.2v36h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36l-18.2.2-18.3.3-.3 18.2-.2 18.3h-48l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-36l-18.2-.2-18.3-.3-.3-18.3L158 73h-36V37l-18.2-.2-18.3-.3-.3-18.3L85 0H37l-.2 18.2z" />
+                            </svg>
+                        </article>
+                        <article data-text="Valorant" class="collage__wrapper">
+                            <img class="collage__img" src="<%=require('./img/decoration-images/valorant.avif')%>"
+                                alt="На изображении картинка из игры CS 2">
+                            <svg class="collage-cross" version="1.0" fill="#5A5A5A" xmlns="http://www.w3.org/2000/svg"
+                                width="17" height="17" viewBox="0 0 512 512">
+                                <path
+                                    d="m36.8 18.2-.3 18.3-18.2.3L0 37v48l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h36l.2 18.2.3 18.3 18.3.3 18.2.2v48l-18.2.2-18.3.3-.3 18.2-.2 18.3h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36H37l-.2 18.3-.3 18.2-18.3.3L0 427v48l18.3.2 18.2.3.3 18.3.2 18.2h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36l18.3-.2 18.2-.3.3-18.3.2-18.2h48l.2 18.2.3 18.3 18.3.3 18.2.2v36l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-48l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36v-36l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-48l18.3-.2 18.2-.3.3-18.3.2-18.2h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3L512 85V37l-18.2-.2-18.3-.3-.3-18.3L475 0h-48l-.2 18.2-.3 18.3-18.2.3-18.3.2v36h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36l-18.2.2-18.3.3-.3 18.2-.2 18.3h-48l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-36l-18.2-.2-18.3-.3-.3-18.3L158 73h-36V37l-18.2-.2-18.3-.3-.3-18.3L85 0H37l-.2 18.2z" />
+                            </svg>
+                        </article>
+                        <article data-text="PUBG" class="collage__wrapper">
+                            <img class="collage__img" src="<%=require('./img/decoration-images/pubg.avif')%>"
+                                alt="На изображении картинка из игры PUBG">
+                            <svg class="collage-cross" version="1.0" fill="#5A5A5A" xmlns="http://www.w3.org/2000/svg"
+                                width="17" height="17" viewBox="0 0 512 512">
+                                <path
+                                    d="m36.8 18.2-.3 18.3-18.2.3L0 37v48l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h36l.2 18.2.3 18.3 18.3.3 18.2.2v48l-18.2.2-18.3.3-.3 18.2-.2 18.3h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36H37l-.2 18.3-.3 18.2-18.3.3L0 427v48l18.3.2 18.2.3.3 18.3.2 18.2h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36l18.3-.2 18.2-.3.3-18.3.2-18.2h48l.2 18.2.3 18.3 18.3.3 18.2.2v36l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-48l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36v-36l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-48l18.3-.2 18.2-.3.3-18.3.2-18.2h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3L512 85V37l-18.2-.2-18.3-.3-.3-18.3L475 0h-48l-.2 18.2-.3 18.3-18.2.3-18.3.2v36h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36l-18.2.2-18.3.3-.3 18.2-.2 18.3h-48l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-36l-18.2-.2-18.3-.3-.3-18.3L158 73h-36V37l-18.2-.2-18.3-.3-.3-18.3L85 0H37l-.2 18.2z" />
+                            </svg>
+                        </article>
+                        <article data-text="FC (ex.FIFA)" class="collage__wrapper">
+                            <img class="collage__img" src="<%=require('./img/decoration-images/FC.avif')%>"
+                                alt="На изображении картинка из игры FC">
+                            <svg class="collage-cross" version="1.0" fill="#5A5A5A" xmlns="http://www.w3.org/2000/svg"
+                                width="17" height="17" viewBox="0 0 512 512">
+                                <path
+                                    d="m36.8 18.2-.3 18.3-18.2.3L0 37v48l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h36l.2 18.2.3 18.3 18.3.3 18.2.2v48l-18.2.2-18.3.3-.3 18.2-.2 18.3h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36H37l-.2 18.3-.3 18.2-18.3.3L0 427v48l18.3.2 18.2.3.3 18.3.2 18.2h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36l18.3-.2 18.2-.3.3-18.3.2-18.2h48l.2 18.2.3 18.3 18.3.3 18.2.2v36l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-48l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36v-36l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-48l18.3-.2 18.2-.3.3-18.3.2-18.2h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3L512 85V37l-18.2-.2-18.3-.3-.3-18.3L475 0h-48l-.2 18.2-.3 18.3-18.2.3-18.3.2v36h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36l-18.2.2-18.3.3-.3 18.2-.2 18.3h-48l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-36l-18.2-.2-18.3-.3-.3-18.3L158 73h-36V37l-18.2-.2-18.3-.3-.3-18.3L85 0H37l-.2 18.2z" />
+                            </svg>
+                        </article>
+                        <article data-text="А еще" class="collage__wrapper">
+                            <p class="collage__wrapper-text">
+                                Мир Танков, League of Legends, Starcraft 2, ML:BB, Tekken,
+                                War Thunder, Standoff 2
+                                <button class="collage__wrapper-button">OK!</button>
+                            </p>
+                            <svg class="collage-cross" version="1.0" fill="#5A5A5A" xmlns="http://www.w3.org/2000/svg"
+                                width="17" height="17" viewBox="0 0 512 512">
+                                <path
+                                    d="m36.8 18.2-.3 18.3-18.2.3L0 37v48l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h36l.2 18.2.3 18.3 18.3.3 18.2.2v48l-18.2.2-18.3.3-.3 18.2-.2 18.3h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36H37l-.2 18.3-.3 18.2-18.3.3L0 427v48l18.3.2 18.2.3.3 18.3.2 18.2h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36l18.3-.2 18.2-.3.3-18.3.2-18.2h48l.2 18.2.3 18.3 18.3.3 18.2.2v36l18.3.2 18.2.3.3 18.2.2 18.3h36v36l18.3.2 18.2.3.3 18.2.2 18.3h48l.2-18.3.3-18.2 18.3-.3 18.2-.2v-48l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36v-36l-18.2-.2-18.3-.3-.3-18.3-.2-18.2h-36l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-48l18.3-.2 18.2-.3.3-18.3.2-18.2h36l.2-18.3.3-18.2 18.3-.3 18.2-.2v-36h36l.2-18.3.3-18.2 18.3-.3L512 85V37l-18.2-.2-18.3-.3-.3-18.3L475 0h-48l-.2 18.2-.3 18.3-18.2.3-18.3.2v36h-36l-.2 18.2-.3 18.3-18.2.3-18.3.2v36l-18.2.2-18.3.3-.3 18.2-.2 18.3h-48l-.2-18.3-.3-18.2-18.2-.3-18.3-.2v-36l-18.2-.2-18.3-.3-.3-18.3L158 73h-36V37l-18.2-.2-18.3-.3-.3-18.3L85 0H37l-.2 18.2z" />
+                            </svg>
 
-                        <picture class="collage__img">
-                            <source type="image/avif" srcset="<%=require('./img/decoration-images/fifa.avif')%>">
-                            <source type="image/webp" srcset="<%=require('./img/decoration-images/fifa.webp')%>">
-                            <img loading="lazy" rel="preload" width="586" height="346"
-                                src="<%=require('./img/decoration-images/fifa.png')%>"
-                                alt="На изображении картинка из игры FIFA">
-                        </picture>
+                        </article>
 
-                        <picture class="collage__img">
-                            <source type="image/avif" srcset="<%=require('./img/decoration-images/and-more.avif')%>">
-                            <source type="image/webp" srcset="<%=require('./img/decoration-images/and-more.webp')%>">
-                            <img loading="lazy" rel="preload" width="586" height="346"
-                                src="<%=require('./img/decoration-images/and-more.png')%>"
-                                alt="На изображении картинка со списком других, киберспортивных дисциплин">
-                        </picture>
                         <img loading="lazy" rel="preload" class="collage__img"
                             src="<%=require('./svg/decoration-elements/mouse-arrow.svg')%>"
                             alt="На изображении курсор компьютерной мыши">
-                    </article>
+                    </div>
 
                 </div>
-                <div class="marquee">
+                <!-- <div class="marquee">
                     <ul class="marquee__list">
                         <li>
                             <img loading="lazy" rel="preload" class="marquee__img marquee__img_venom"
@@ -206,7 +224,7 @@
                                 src="<%=require('./img/partners/powercell.png')%>" alt="На изображении логотип">
                         </li>
                     </ul>
-                </div>
+                </div> -->
             </section>
             <section class="infrastructure">
                 <span aria-hidden="true"

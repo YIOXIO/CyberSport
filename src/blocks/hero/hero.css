@@ -7,5 +7,6 @@
 
 .hero{
     margin-block-end: 58px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    min-block-size: 500px;
 }

@@ -48,6 +48,6 @@ if (document.querySelector('.swiper-main')) {
   
 
 
-import('./js/ymap.js').then(({ initMap }) => {
-    initMap();
-});
+// import('./js/ymap.js').then(({ initMap }) => {
+//     initMap();
+// });
