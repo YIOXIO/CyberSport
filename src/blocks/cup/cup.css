@@ -61,20 +61,6 @@
 }
 
 
-/* .cup__collage-img:nth-child(1){
-    margin-block-start: -20px;
-}
-.cup__collage-img:nth-child(3){
-    margin-block-start: -20px;
-}
-.cup__collage-img:nth-child(4){
-    margin-block-start: -50px;
-}
-.cup__collage-img:nth-child(6){
-    margin-block-start: -50px;
-} */
-
-
 .cup__collage-wrapper{
     border: 2.165px solid #0002C9;
     position: absolute;

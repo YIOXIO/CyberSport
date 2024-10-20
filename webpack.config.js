@@ -15,7 +15,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].js', 
         chunkFilename: 'chunks/[name].chunk.js',
-        publicPath: '/wp-content/themes/CyberSport/js/',
+        publicPath: '/',
     },
     mode: 'development',
     devServer: {
@@ -32,12 +32,6 @@ module.exports = {
                     test: /[\\/]node_modules[\\/]/,
                     name: 'vendors',
                     chunks: 'all',
-                },
-                default: {
-                    enforce: true,
-                    minChunks: 2,
-                    priority: -20,
-                    reuseExistingChunk: true,
                 },
             },
         },
